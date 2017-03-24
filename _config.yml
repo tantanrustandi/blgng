@@ -1,0 +1,32 @@
+# Site settings
+title: Kamu Tulis Blog
+image: img/home-bg.jpg
+logo: img/favicon.png
+email: admin@kamutulis.com
+description: "Menulis apapun yang disukai dan dibaca oleh semua orang di dunia"
+baseurl: "/blgng"
+author: "Tantan Rustandi (kamutulis.com)"
+url: "http://kamutulis.com"
+twitter_username: kamutulis
+github_username: kamutulis
+facebook_username: kamutulis
+gaid: UA-XXXXX-X
+disqus_site_id: kamutulis
+# Plugins
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+safe: false # safe need to be off for local preview
+lsi: false
+permalink: pretty
+paginate: 5
+exclude: ["sass","node_modules","Gruntfile.js","package.json","README.md"]
+keep_files: []
